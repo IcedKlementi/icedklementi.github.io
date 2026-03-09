@@ -25,17 +25,12 @@ Take a look at what I've been building. Each project reflects a different set of
 |---|---|
 | [Moledy](#moledy) | 2D Arcade Platformer · Custom Engine |
 | [Clustercluck](#clustercluck) | 2-Player Party Game with a Twist |
-| [Spirit Ward](#spirit-ward) | Third Person Shooter Prototype |
-| [Project LX](#project-lx) | Narrative Rhythm Game Concept |
-
-<a id="moledy"></a>
+|
 
 # Moledy
 ### 2D Arcade-Style Platformer Developed in Custom C++ Engine
 [![](Moledy-Cover.png)](https://youtu.be/rfO5-KV_KQ0?si=jJjIUZFnygxD8jpj)
 [Watch the Trailer](https://youtu.be/rfO5-KV_KQ0?si=jJjIUZFnygxD8jpj)
-
----
 
 ## Overview
 
@@ -133,3 +128,116 @@ Without this pipeline, I'm not sure we would have actually been able to ship a l
 Moledy taught me a lot about the hidden infrastructure costs of custom engine development. It's easy to underestimate how much a commercial engine quietly does for you. Building (or in this case, *working around*) that infrastructure ourselves made every system feel earned.
 
 The level pipeline in particular is something I'm proud of — not because it was technically complex, but because it solved a real problem cleanly, with minimal disruption to the rest of the team's workflow.
+
+---
+
+# Clustercluck
+### Cooperative Party Game with a Chaotic PvP Twist
+[![](Clustercluck-Cover.png)](https://www.youtube.com/watch?v=l_QdnzvIQ8s)
+[Watch the Trailer](https://www.youtube.com/watch?v=l_QdnzvIQ8s)
+
+## Overview
+
+Clustercluck is a cooperative party game for two players where you play as chickens running a fast-paced nugget restaurant — serving nuggets to an endless line of very hungry chicken customers.
+
+Players rush around the kitchen performing tasks such as collecting raw chicken, grinding it, cooking nuggets, and serving orders before customers lose patience. The game focuses on **communication, timing, and coordination**, similar to games like *Overcooked*.
+
+Just when players think they've mastered the workflow, the game introduces a twist: the cooperative kitchen suddenly turns into a **PvP battle**, where the last remaining chicken cooks their former teammate and serves them to the waiting customers.
+
+The project was developed in **Unity using C#**, with a team of designers, programmers, and artists collaborating to deliver a polished, narrative-driven party game experience.
+
+| | |
+|---|---|
+| **Genre** | Cooperative Party Game |
+| **Engine** | Unity |
+| **Team** | 10 Members |
+| **My Role** | Core Programmer / Technical Artist / Gameplay Implementation |
+
+## Languages & Tools
+
+| Tool | Purpose |
+|---|---|
+| Unity | Game engine and scene management |
+| C# | Gameplay programming |
+| Unity Input System | Player input and interaction |
+| Aseprite | Pixel art asset creation (art team) |
+|
+
+## What I Built
+
+These are the main systems and contributions I worked on during development.
+
+### 🎮 Controller Input System
+
+I implemented the controller input system to support gamepad play, expanding the player experience beyond basic keyboard controls.
+
+This involved mapping player actions to controller inputs and ensuring that movement, interaction, and gameplay actions felt intuitive and responsive. Because the game relies heavily on fast coordination between two players, controller responsiveness was critical to making the gameplay feel satisfying.
+
+### 🧩 Gameplay Implementation & Tech Art
+
+I worked closely with the art team to integrate their assets into the game and transform static artwork into a functioning gameplay experience.
+
+This involved:
+
+- Implementing interactive kitchen stations
+- Integrating character sprites and animations
+- Building interactive gameplay objects
+- Ensuring the visual presentation remained consistent during gameplay
+
+The role required a blend of programming and technical art, translating the artists' work into a cohesive interactive environment.
+
+### 🔄 Game States & Flow
+
+I collaborated with another programmer to implement the main game flow and progression states, including:
+
+- Active kitchen gameplay
+- Task completion and food serving
+- Customer interaction loops
+- Transition into the final PvP phase
+
+This system ensured the cooperative gameplay transitioned smoothly into the game's surprise competitive finale.
+
+## The Big Challenge: Making Controls Feel Good
+
+Clustercluck is fundamentally about **fast player coordination**. If movement and interactions feel even slightly awkward, the entire experience breaks down.
+
+While implementing controller support was technically straightforward, the real challenge was **tuning the responsiveness and feedback** of player actions so that interactions felt natural during chaotic gameplay.
+
+Small details mattered:
+
+- How quickly players could pick up items
+- How interactions triggered near kitchen stations
+- How clearly the game communicated successful actions
+
+Because the gameplay loop is built around rapid interactions, the difference between *working controls* and *good controls* was huge.
+
+## The Solution: Iterative Input & Feedback Tuning
+
+To address this, I focused on refining the interaction layer between player input and gameplay systems.
+
+This included:
+
+- Fine-tuning interaction detection around kitchen stations
+- Adjusting input responsiveness for player movement and actions
+- Improving feedback when actions succeeded or failed
+
+Rather than adding complexity, the goal was to **make the controls invisible** — players should be thinking about cooking and coordinating with their partner, not fighting the controls.
+
+## Impact
+
+These improvements helped shape the overall feel of the game:
+
+- ✅ Gameplay interactions became faster and more intuitive
+- ✅ Controller support enabled a better couch-co-op experience
+- ✅ Players could focus on coordination rather than control friction
+- ✅ The cooperative chaos of the kitchen felt smooth and responsive
+
+Even though the game mechanics themselves were intentionally simple, polishing the player experience helped make the gameplay feel engaging and satisfying.
+
+## Reflection
+
+Clustercluck reinforced how important **player feel** is in multiplayer games.
+
+Even simple mechanics can become frustrating if input responsiveness and feedback aren't carefully tuned. By focusing on interaction design and controller responsiveness, we were able to turn a straightforward gameplay loop into something that felt much more dynamic during play.
+
+Working as both a programmer and technical artist also gave me a deeper appreciation for the bridge between art and gameplay — making sure that visual assets don't just look good, but **function well within the interactive system**.
