@@ -8,7 +8,7 @@ Most of my experience has come from working on student game projects in multidis
 
 Outside of gameplay systems, I have a strong interest in solving production problems through tooling and data-driven design. If there's a bottleneck in the workflow, I'd rather fix it properly than work around it indefinitely.
 
-In the following portfolio showcase, I've mostly extracted the most exciting and crucial achievements of each project. However, I also play a role in other aspects of the game development cycle, which would be too much to write out in full. I'd love to chat to talk more about any points you might be interested in particular!
+In the following portfolio showcase, I've mostly extracted the most exciting and crucial achievements of each project. However, I also play a role in other aspects of the game development cycle, which would be too much to write out in full. **I'd love to chat to talk more about any points you might be interested in particular!**
 
 [Check out my website](yongyunjing.com)
 
