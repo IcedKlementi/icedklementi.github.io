@@ -1,13 +1,16 @@
-# Yun Jing Yong
+# **Yong Yun Jing**
 ### Game Developer · Multi-Disciplinary Designer
 
----
 
 I'm a game developer with a BA in User Experience and Game Design and a Diploma in Visual Effects, with a background on programming and a specialization in general design. My background sits at the intersection of technical implementation and user-focused design — I care about how games feel to play, and I care equally about how they're built.
 
 Most of my experience has come from working on student game projects in multidisciplinary teams alongside designers, engineers, and artists — on both commercial engines and fully custom-built ones. That last part tends to be where things get interesting. When standard tools aren't available, I lean into building the infrastructure that makes development possible: pipelines, tooling workflows, and systems that let the rest of the team focus on making the game good.
 
 Outside of gameplay systems, I have a strong interest in solving production problems through tooling and data-driven design. If there's a bottleneck in the workflow, I'd rather fix it properly than work around it indefinitely.
+
+In the following portfolio showcase, I've mostly extracted the most exciting and crucial achievements of each project. However, I also play a role in other aspects of the game development cycle, which would be too much to write out in full. I'd love to chat to talk more about any points you might be interested in particular!
+
+[Check out my website](yongyunjing.com)
 
 ## Technical Skills
 
@@ -24,10 +27,22 @@ Take a look at what I've been building. Each project reflects a different set of
 | [Moledy](#moledy) | 2D Arcade Platformer · Custom Engine |
 | [Clustercluck](#clustercluck) | 2-Player Party Game with a Twist |
 
+## Other Projects
+
+I've contributed to these projects as well, but they did not have as many challenges or learning points as the featured projects. Neverthelessly, do check them out as well!
+
+| Project | Type |
+|---|---|
+| [Bubble Thoughts](https://4ngrypanda.itch.io/bubble-thoughts) | Casual Typing Game · Learnt Godot in 2 days |
+| [Super Sidekick Speed-dating Sim](https://4ngrypanda.itch.io/super-sidekick-speed-dating-sim) | 2 Player Casual Competitive Sidekick Recruitment |
+| [Encore of Faces](https://4ngrypanda.itch.io/encore-of-faces) | Pinball to defeat the bosses |
+
 # Moledy
 ### 2D Arcade-Style Platformer Developed in Custom C++ Engine
 [![](Moledy-Cover.png)](https://youtu.be/rfO5-KV_KQ0?si=jJjIUZFnygxD8jpj)
 [Watch the Trailer](https://youtu.be/rfO5-KV_KQ0?si=jJjIUZFnygxD8jpj)
+
+[Download Now](https://drive.google.com/file/d/1JNr8h3tT3QLvNpH09Q4uW34RAhisFPuY/view?usp=drive_link)
 
 ## Overview
 
@@ -127,7 +142,10 @@ The level pipeline in particular is something I'm proud of — not because it wa
 # Clustercluck
 ### Cooperative Party Game with a Chaotic PvP Twist
 [![](Clustercluck-Cover.png)](https://www.youtube.com/watch?v=l_QdnzvIQ8s)
+
 [Watch the Trailer](https://www.youtube.com/watch?v=l_QdnzvIQ8s)
+
+[Download Now](https://4ngrypanda.itch.io/clustercluck)
 
 ## Overview
 
