@@ -28,7 +28,7 @@ Take a look at what I've been building. Each project reflects a different set of
 | [Spirit Ward](#spirit-ward) | Third Person Shooter Prototype |
 | [Project LX](#project-lx) | Narrative Rhythm Game Concept |
 
-<section id="moledy">
+<a id="moledy"></a>
 
 # Moledy
 ### 2D Arcade-Style Platformer Developed in Custom C++ Engine
