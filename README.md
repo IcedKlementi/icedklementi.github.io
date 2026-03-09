@@ -10,7 +10,7 @@ Outside of gameplay systems, I have a strong interest in solving production prob
 
 In the following portfolio showcase, I've mostly extracted the most exciting and crucial achievements of each project. However, I also play a role in other aspects of the game development cycle, which would be too much to write out in full. **I'd love to chat to talk more about any points you might be interested in particular!**
 
-[Check out my website](yongyunjing.com)
+[Check out my website](https://yongyunjing.com)
 
 ## Technical Skills
 
