@@ -15,8 +15,6 @@ Outside of gameplay systems, I have a strong interest in solving production prob
 - **Engines** Unity
 - **Specialisations:** Art Implementation for Games, Rapid Gameplay Prototyping, Workflow Development
 
----
-
 ## Featured Projects
 
 Take a look at what I've been building. Each project reflects a different set of constraints, team structures, and technical challenges — hopefully something here catches your eye.
@@ -25,7 +23,6 @@ Take a look at what I've been building. Each project reflects a different set of
 |---|---|
 | [Moledy](#moledy) | 2D Arcade Platformer · Custom Engine |
 | [Clustercluck](#clustercluck) | 2-Player Party Game with a Twist |
-|
 
 # Moledy
 ### 2D Arcade-Style Platformer Developed in Custom C++ Engine
@@ -45,8 +42,6 @@ Working without a commercial framework meant that a lot of things most teams tak
 | **Team** | 2 Designers · 6 Engineers |
 | **My Role** | Design Lead / Gameplay Programmer / Technical Artist|
 
----
-
 ## Languages & Tools
 
 | Tool | Purpose |
@@ -56,8 +51,6 @@ Working without a commercial framework meant that a lot of things most teams tak
 | Tiled Map Editor | Visual level authoring |
 | JSON | Runtime level data format |
 | XInput API | Controller input mapping |
-
----
 
 ## What I Built
 
@@ -161,7 +154,6 @@ The project was developed in **Unity using C#**, with a team of designers, progr
 | C# | Gameplay programming |
 | Unity Input System | Player input and interaction |
 | Aseprite | Pixel art asset creation (art team) |
-|
 
 ## What I Built
 
